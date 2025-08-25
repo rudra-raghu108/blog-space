@@ -178,7 +178,7 @@ The platform has demonstrated remarkable results:
       "Recharts",
       "WebSocket",
     ],
-    githubUrl: "https://github.com/example/ecommerce-dashboard",
+    githubUrl: "ComingSoon",
     demoUrl: "https://ecommerce-dashboard-demo.com",
     images: [
       "/api/placeholder/800/600",
@@ -224,7 +224,7 @@ Trusted by 500+ businesses ranging from startups to Fortune 500 companies:
       "Redis",
       "Vercel",
     ],
-    githubUrl: "https://github.com/example/ai-content-generator",
+    githubUrl: "ComingSoon",
     demoUrl: "https://ai-content-gen.com",
     images: ["/api/placeholder/800/600", "/api/placeholder/800/600"],
     completedAt: "2023-12-15",
@@ -261,7 +261,7 @@ Powering productivity for 2,500+ teams across 40+ countries:
 - ISO 27001 compliant security infrastructure
 - Supporting teams from 5 to 5,000 members with consistent performance`,
     techStack: ["React", "Node.js", "Socket.IO", "WebRTC", "MongoDB", "AWS S3"],
-    githubUrl: "https://github.com/example/collaboration-tool",
+    githubUrl: "ComingSoon",
     demoUrl: "https://collab-tool-demo.com",
     images: [
       "/api/placeholder/800/600",
@@ -309,7 +309,7 @@ Transforming lives across the globe with measurable results:
       "Chart.js",
       "Service Workers",
     ],
-    githubUrl: "https://github.com/example/fitness-tracker",
+    githubUrl: "ComingSoon",
     demoUrl: "https://smart-fitness-tracker.com",
     images: ["/api/placeholder/800/600", "/api/placeholder/800/600"],
     completedAt: "2023-10-05",
