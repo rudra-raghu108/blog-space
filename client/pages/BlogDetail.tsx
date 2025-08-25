@@ -213,9 +213,11 @@ export default function BlogDetail() {
               }
               if (paragraph.trim()) {
                 return (
-                  <p key={index} className="mb-6 leading-relaxed text-lg">
-                    {paragraph}
-                  </p>
+                  <div key={index} className="mb-6">
+                    <p className="leading-relaxed text-lg text-foreground/90">
+                      {paragraph}
+                    </p>
+                  </div>
                 );
               }
               return null;
