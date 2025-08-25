@@ -307,18 +307,18 @@ export default function ProjectDetail() {
                   return (
                     <div
                       key={index}
-                      className="bg-primary/5 rounded-lg p-6 mb-6"
+                      className="bg-gradient-to-r from-accent/10 to-primary/5 rounded-xl p-6 mb-6 border-l-4 border-accent/50"
                     >
-                      <ol className="space-y-3">
+                      <ol className="space-y-4">
                         {listItems.map((item, itemIndex) => (
                           <li
                             key={itemIndex}
-                            className="flex items-start gap-3"
+                            className="flex items-start gap-4"
                           >
-                            <div className="w-6 h-6 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">
+                            <div className="w-7 h-7 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0 shadow-sm">
                               {itemIndex + 1}
                             </div>
-                            <span className="pt-0.5">
+                            <span className="pt-1 text-foreground/90 leading-relaxed flex-1">
                               {item.replace(/^\d+\. /, "")}
                             </span>
                           </li>
