@@ -43,7 +43,7 @@ export default function About() {
           <div className="text-center mb-16">
             <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden flex items-center justify-center border-4 border-primary/20">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Ff7c3d7d3a1f6403dad4e8964e7c82885%2Fa49fc3869aaf4a46acaeedc81f53d92a?format=webp&width=800"
+                src="https://cdn.builder.io/api/v1/image/assets%2Ff7c3d7d3a1f6403dad4e8964e7c82885%2Fa15886a8d84d4eec81640334c18fa4c4?format=webp&width=800"
                 alt="BlogSpace Logo"
                 className="w-full h-full object-contain p-4"
                 style={{ filter: 'hue-rotate(280deg) saturate(1.2) brightness(1.1)' }}
