@@ -47,7 +47,9 @@ const Footer = () => {
                   src="https://cdn.builder.io/api/v1/image/assets%2Ff7c3d7d3a1f6403dad4e8964e7c82885%2Fa15886a8d84d4eec81640334c18fa4c4?format=webp&width=800"
                   alt="BlogSpace Logo"
                   className="w-full h-full object-contain"
-                  style={{ filter: 'hue-rotate(280deg) saturate(1.2) brightness(1.1)' }}
+                  style={{
+                    filter: "hue-rotate(280deg) saturate(1.2) brightness(1.1)",
+                  }}
                 />
               </div>
               <span className="font-bold text-xl text-foreground">

@@ -61,17 +61,20 @@ BlogSpace/
 ### Installation
 
 1. **Clone the repository**
+
 ```bash
 git clone <repository-url>
 cd blogspace
 ```
 
 2. **Install dependencies**
+
 ```bash
 pnpm install
 ```
 
 3. **Start the development server**
+
 ```bash
 pnpm dev
 ```
@@ -103,6 +106,7 @@ pnpm format.fix   # Format code with Prettier
 ### Theme Configuration
 
 Customize colors and design tokens in:
+
 - `client/global.css` - CSS custom properties
 - `tailwind.config.ts` - TailwindCSS theme configuration
 
@@ -115,6 +119,7 @@ Customize colors and design tokens in:
 ### Component Styling
 
 All components use TailwindCSS with a custom design system:
+
 - Primary colors: Purple/violet theme
 - Modern spacing and typography
 - Responsive breakpoints
@@ -125,6 +130,7 @@ All components use TailwindCSS with a custom design system:
 ### Blog Posts
 
 Blog posts support rich markdown-style content with:
+
 - Headings (H1, H2, H3)
 - Lists (ordered and unordered)
 - Code blocks and inline code
@@ -133,6 +139,7 @@ Blog posts support rich markdown-style content with:
 ### Project Showcase
 
 Projects feature:
+
 - Detailed descriptions
 - Technology stack badges
 - Live demo links
@@ -158,7 +165,7 @@ dist/spa
 
 ### ⭐ Deploy on Netlify
 
-1. **Connect Netlify MCP**: Use the platform's MCP integration  
+1. **Connect Netlify MCP**: Use the platform's MCP integration
 2. **Build Settings**:
    - Build command: `pnpm build`
    - Publish directory: `dist/spa`
@@ -170,18 +177,20 @@ dist/spa
 For other hosting providers:
 
 1. **Build the application**
+
 ```bash
 pnpm build
 ```
 
 2. **Serve the static files**
-The `dist/spa` directory contains all static assets ready for deployment.
+   The `dist/spa` directory contains all static assets ready for deployment.
 
 ## ⭐ Key Features Implementation
 
 ### Dark Mode Toggle (TailwindCSS)
 
 Implemented using:
+
 - TailwindCSS `dark:` variants
 - React Context for theme state
 - Local storage persistence
@@ -190,6 +199,7 @@ Implemented using:
 ### Markdown Support
 
 Content rendering supports:
+
 - GitHub Flavored Markdown
 - Syntax highlighting
 - Custom styling for code blocks
@@ -198,6 +208,7 @@ Content rendering supports:
 ### Fetch Data (JSON / API)
 
 Data architecture:
+
 - Mock data in TypeScript files
 - API-ready structure for backend integration
 - Type-safe data models
@@ -206,6 +217,7 @@ Data architecture:
 ### Basic Routing (React Router)
 
 SPA routing with:
+
 - React Router 6
 - Nested routes
 - Dynamic parameters
@@ -227,6 +239,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Rudra Raghuwanshi**
+
 - GitHub: [@rudra-raghu108](https://github.com/rudra-raghu108)
 - LinkedIn: [rudra-raghuwanshi](https://www.linkedin.com/in/rudra-raghuwanshi-8b76ab240)
 - Instagram: [@_rudra_13_](https://www.instagram.com/_rudra_13_?igsh=MWgxYzR2MDg1bnJ3dg==)

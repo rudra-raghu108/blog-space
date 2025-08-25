@@ -34,7 +34,6 @@ export default function About() {
     "Git",
   ];
 
-
   return (
     <Layout>
       <div className="py-8 sm:py-12">
@@ -46,7 +45,9 @@ export default function About() {
                 src="https://cdn.builder.io/api/v1/image/assets%2Ff7c3d7d3a1f6403dad4e8964e7c82885%2Fa15886a8d84d4eec81640334c18fa4c4?format=webp&width=800"
                 alt="BlogSpace Logo"
                 className="w-full h-full object-contain p-4"
-                style={{ filter: 'hue-rotate(280deg) saturate(1.2) brightness(1.1)' }}
+                style={{
+                  filter: "hue-rotate(280deg) saturate(1.2) brightness(1.1)",
+                }}
               />
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
@@ -109,7 +110,10 @@ export default function About() {
                   </a>
                 </Button>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="mailto:rudra.raghuwanshi013@gmail.com" className="gap-2">
+                  <a
+                    href="mailto:rudra.raghuwanshi013@gmail.com"
+                    className="gap-2"
+                  >
                     <Mail className="h-4 w-4" />
                     Email
                   </a>
@@ -139,7 +143,6 @@ export default function About() {
               </div>
             </CardContent>
           </Card>
-
 
           {/* CTA Section */}
           <div className="text-center">

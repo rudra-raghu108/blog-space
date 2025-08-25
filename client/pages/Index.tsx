@@ -76,9 +76,7 @@ export default function Index() {
             {/* Hero Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">
               <Sparkles className="h-4 w-4" />
-              <span className="text-sm font-medium">
-                Welcome to BlogSpace
-              </span>
+              <span className="text-sm font-medium">Welcome to BlogSpace</span>
             </div>
 
             {/* Hero Title */}

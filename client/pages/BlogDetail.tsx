@@ -158,7 +158,10 @@ export default function BlogDetail() {
                   .split("\n")
                   .filter((line) => line.startsWith("- "));
                 return (
-                  <div key={index} className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-xl p-6 mb-6 border-l-4 border-primary/30">
+                  <div
+                    key={index}
+                    className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-xl p-6 mb-6 border-l-4 border-primary/30"
+                  >
                     <ul className="space-y-4">
                       {listItems.map((item, itemIndex) => {
                         const content = item.replace("- ", "");
@@ -180,7 +183,9 @@ export default function BlogDetail() {
                                   </span>
                                 </>
                               ) : (
-                                <span className="leading-relaxed text-foreground">{content}</span>
+                                <span className="leading-relaxed text-foreground">
+                                  {content}
+                                </span>
                               )}
                             </div>
                           </li>
@@ -195,7 +200,10 @@ export default function BlogDetail() {
                   .split("\n")
                   .filter((line) => line.match(/^\d+\. /));
                 return (
-                  <div key={index} className="bg-gradient-to-r from-accent/10 to-primary/5 rounded-xl p-6 mb-6 border-l-4 border-accent/50">
+                  <div
+                    key={index}
+                    className="bg-gradient-to-r from-accent/10 to-primary/5 rounded-xl p-6 mb-6 border-l-4 border-accent/50"
+                  >
                     <ol className="space-y-4">
                       {listItems.map((item, itemIndex) => (
                         <li key={itemIndex} className="flex items-start gap-4">

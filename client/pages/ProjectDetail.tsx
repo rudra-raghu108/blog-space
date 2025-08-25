@@ -263,7 +263,7 @@ export default function ProjectDetail() {
                   const listItems = paragraph
                     .split("\n")
                     .filter((line) => line.trim().startsWith("- "))
-                    .map(line => line.trim());
+                    .map((line) => line.trim());
                   return (
                     <div
                       key={index}
@@ -290,7 +290,9 @@ export default function ProjectDetail() {
                                     </span>
                                   </>
                                 ) : (
-                                  <span className="leading-relaxed text-foreground">{content}</span>
+                                  <span className="leading-relaxed text-foreground">
+                                    {content}
+                                  </span>
                                 )}
                               </div>
                             </li>
