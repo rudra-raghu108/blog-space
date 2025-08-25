@@ -30,10 +30,10 @@ const Navbar = () => {
           >
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/70 rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">
-                DS
+                BS
               </span>
             </div>
-            <span className="hidden sm:block">DevShowcase</span>
+            <span className="hidden sm:block">BlogSpace</span>
           </Link>
 
           {/* Desktop Navigation - Centered */}
