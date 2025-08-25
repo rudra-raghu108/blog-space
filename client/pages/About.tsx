@@ -66,11 +66,11 @@ export default function About() {
           <div className="text-center mb-16">
             <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-4xl">
-                DS
+                BS
               </span>
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-              About DevShowcase
+              About BlogSpace
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Welcome to my digital space where I share my journey in web
@@ -84,7 +84,7 @@ export default function About() {
             <CardHeader>
               <CardTitle className="flex items-center gap-2">
                 <MapPin className="h-5 w-5" />
-                Based in San Francisco, CA
+                Based in INDIA
               </CardTitle>
               <CardDescription>
                 Full Stack Developer & Tech Enthusiast
@@ -92,7 +92,7 @@ export default function About() {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="leading-relaxed">
-                I'm a passionate full stack developer with over 5 years of
+                I'm a passionate full stack developer with over 12 months of
                 experience building modern web applications. I specialize in
                 React, TypeScript, and Node.js, with a keen interest in creating
                 user-friendly interfaces and scalable backend systems.
@@ -108,7 +108,7 @@ export default function About() {
               <div className="flex flex-wrap gap-3 pt-4">
                 <Button variant="outline" size="sm" asChild>
                   <a
-                    href="https://github.com"
+                    href="https://github.com/rudra-raghu108"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="gap-2"
@@ -119,7 +119,7 @@ export default function About() {
                 </Button>
                 <Button variant="outline" size="sm" asChild>
                   <a
-                    href="https://linkedin.com"
+                    href="https://www.linkedin.com/in/rudra-raghuwanshi-8b76ab240"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="gap-2"
@@ -129,7 +129,7 @@ export default function About() {
                   </a>
                 </Button>
                 <Button variant="outline" size="sm" asChild>
-                  <a href="mailto:hello@devshowcase.com" className="gap-2">
+                  <a href="mailto:rudra.raghuwanshi013@gmail.com" className="gap-2">
                     <Mail className="h-4 w-4" />
                     Email
                   </a>
@@ -199,7 +199,7 @@ export default function About() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild className="gap-2">
-                <a href="mailto:hello@devshowcase.com">
+                <a href="mailto:rudra.raghuwanshi013@gmail.com">
                   <Mail className="h-4 w-4" />
                   Get in Touch
                 </a>
