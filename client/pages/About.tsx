@@ -41,10 +41,13 @@ export default function About() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-4xl">
-                BS
-              </span>
+            <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden flex items-center justify-center border-4 border-primary/20">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Ff7c3d7d3a1f6403dad4e8964e7c82885%2Fa49fc3869aaf4a46acaeedc81f53d92a?format=webp&width=800"
+                alt="BlogSpace Logo"
+                className="w-full h-full object-contain p-4"
+                style={{ filter: 'hue-rotate(280deg) saturate(1.2) brightness(1.1)' }}
+              />
             </div>
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
               About BlogSpace
