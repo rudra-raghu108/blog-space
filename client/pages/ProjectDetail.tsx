@@ -94,15 +94,27 @@ export default function ProjectDetail() {
                     </Button>
                   )}
                   {project.githubUrl && (
-                    <Button variant="outline" asChild className="gap-2">
-                      <a
-                        href={project.githubUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <Github className="h-4 w-4" />
-                        View Source Code
-                      </a>
+                    <Button
+                      variant="outline"
+                      className={`gap-2 ${project.githubUrl === "ComingSoon" ? "cursor-not-allowed opacity-60" : ""}`}
+                      disabled={project.githubUrl === "ComingSoon"}
+                      asChild={project.githubUrl !== "ComingSoon"}
+                    >
+                      {project.githubUrl === "ComingSoon" ? (
+                        <>
+                          <Github className="h-4 w-4" />
+                          ComingSoon
+                        </>
+                      ) : (
+                        <a
+                          href={project.githubUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <Github className="h-4 w-4" />
+                          View Source Code
+                        </a>
+                      )}
                     </Button>
                   )}
                   <Button
