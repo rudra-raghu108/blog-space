@@ -68,16 +68,14 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           )}
 
           {project.githubUrl && (
-            <Button size="sm" variant="outline" asChild className="flex-1">
-              <a
-                href={project.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-1"
-              >
-                <Github className="h-4 w-4" />
-                Code
-              </a>
+            <Button
+              size="sm"
+              variant="outline"
+              className="flex-1 cursor-not-allowed opacity-60"
+              disabled
+            >
+              <Github className="h-4 w-4" />
+              {project.githubUrl === "ComingSoon" ? "ComingSoon" : "Code"}
             </Button>
           )}
         </div>
