@@ -122,7 +122,7 @@ export default function BlogDetail() {
           </header>
 
           {/* Article Content */}
-          <div className="prose prose-lg dark:prose-invert max-w-none">
+          <div className="prose prose-lg dark:prose-invert max-w-none space-y-6">
             {blog.content.split("\n\n").map((paragraph, index) => {
               if (paragraph.startsWith("# ")) {
                 return (
@@ -158,29 +158,29 @@ export default function BlogDetail() {
                   .split("\n")
                   .filter((line) => line.startsWith("- "));
                 return (
-                  <div key={index} className="bg-accent/30 rounded-lg p-6 mb-6">
-                    <ul className="space-y-3">
+                  <div key={index} className="bg-gradient-to-r from-primary/5 to-accent/5 rounded-xl p-6 mb-6 border-l-4 border-primary/30">
+                    <ul className="space-y-4">
                       {listItems.map((item, itemIndex) => {
                         const content = item.replace("- ", "");
                         const [title, ...description] = content.split(": ");
                         return (
                           <li
                             key={itemIndex}
-                            className="flex items-start gap-3"
+                            className="flex items-start gap-4"
                           >
-                            <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                            <div>
+                            <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0" />
+                            <div className="flex-1">
                               {description.length > 0 ? (
                                 <>
-                                  <span className="font-semibold">
+                                  <span className="font-semibold text-foreground text-base">
                                     {title}:
                                   </span>
-                                  <span className="ml-1">
+                                  <span className="ml-1 text-muted-foreground leading-relaxed">
                                     {description.join(": ")}
                                   </span>
                                 </>
                               ) : (
-                                <span>{content}</span>
+                                <span className="leading-relaxed text-foreground">{content}</span>
                               )}
                             </div>
                           </li>
