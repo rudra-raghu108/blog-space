@@ -34,29 +34,6 @@ export default function About() {
     "Git",
   ];
 
-  const experience = [
-    {
-      role: "Senior Frontend Developer",
-      company: "Tech Innovations Inc.",
-      period: "2022 - Present",
-      description:
-        "Leading development of modern web applications using React and TypeScript.",
-    },
-    {
-      role: "Full Stack Developer",
-      company: "StartupCo",
-      period: "2020 - 2022",
-      description:
-        "Built scalable web applications from concept to deployment.",
-    },
-    {
-      role: "Frontend Developer",
-      company: "Digital Agency",
-      period: "2018 - 2020",
-      description:
-        "Created responsive websites and interactive user interfaces.",
-    },
-  ];
 
   return (
     <Layout>
@@ -160,35 +137,6 @@ export default function About() {
             </CardContent>
           </Card>
 
-          {/* Experience Section */}
-          <Card className="mb-12">
-            <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <Calendar className="h-5 w-5" />
-                Experience
-              </CardTitle>
-              <CardDescription>My professional journey</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              {experience.map((job, index) => (
-                <div
-                  key={index}
-                  className="border-l-2 border-primary/20 pl-6 pb-6 last:pb-0"
-                >
-                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                    <h3 className="font-semibold">{job.role}</h3>
-                    <span className="text-sm text-muted-foreground">
-                      {job.period}
-                    </span>
-                  </div>
-                  <p className="text-sm text-primary font-medium mb-2">
-                    {job.company}
-                  </p>
-                  <p className="text-muted-foreground">{job.description}</p>
-                </div>
-              ))}
-            </CardContent>
-          </Card>
 
           {/* CTA Section */}
           <div className="text-center">
