@@ -43,14 +43,15 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/70 rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-sm">
-                  DS
-                </span>
-              </div>
-              <span className="font-bold text-xl text-foreground">
-                DevShowcase
-              </span>
+          <img
+  src="https://raw.githubusercontent.com/rudra-raghu108/blog-space/main/public/logo.png"
+  alt="BlogSpace Logo"
+  className="h-8 w-8 object-contain"
+/>
+<span className="font-bold text-xl text-foreground">
+  DevShowcase
+</span>
+
             </div>
             <p className="text-muted-foreground max-w-md mb-6">
               A modern showcase for development projects and technical writing.
