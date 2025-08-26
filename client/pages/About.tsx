@@ -73,7 +73,7 @@ export default function About() {
 </div>
 
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
-              About DevShowcase
+              About BlogSpace
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Welcome to my digital space where I share my journey in web

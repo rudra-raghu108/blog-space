@@ -77,7 +77,7 @@ export default function Index() {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary border border-primary/20">
               <Sparkles className="h-4 w-4" />
               <span className="text-sm font-medium">
-                Welcome to DevShowcase
+                Welcome to BlogSpace
               </span>
             </div>
 

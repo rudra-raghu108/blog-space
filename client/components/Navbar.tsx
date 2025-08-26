@@ -33,7 +33,7 @@ const Navbar = () => {
     alt="BlogSpace Logo"
     className="h-8 w-8 object-contain"
   />
-  <span className="hidden sm:block">DevShowcase</span>
+  <span className="hidden sm:block">BlogSpace</span>
 </Link>
 
 

@@ -48,7 +48,7 @@ const Footer = () => {
   className="h-8 w-8 object-contain"
 />
 <span className="font-bold text-xl text-foreground">
-  DevShowcase
+  BlogSpace
 </span>
 
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">Contact</h3>
             <div className="space-y-3 text-muted-foreground">
-              <p>hello@devshowcase.com</p>
+              <p>hello@blogspace.com</p>
               <p>Building amazing web experiences</p>
               <p>Open to collaboration</p>
             </div>
@@ -104,7 +104,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} DevShowcase. All rights reserved.
+            © {currentYear} BlogSpace. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center gap-1 mt-4 sm:mt-0">
             Made with <Heart className="h-4 w-4 text-red-500" /> using React &
