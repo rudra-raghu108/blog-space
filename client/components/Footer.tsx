@@ -19,8 +19,7 @@ const Footer = () => {
       },
       {
         label: "LinkedIn",
-        href: "www.linkedin.com/in/rudra-raghuwanshi-8b76ab240
-",
+        href: "www.linkedin.com/in/rudra-raghuwanshi-8b76ab240",
         icon: Linkedin,
       },
       {
