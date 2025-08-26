@@ -24,17 +24,18 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-center">
           {/* Logo - Absolute positioned to left */}
-          <Link
-            to="/"
-            className="absolute left-0 flex items-center space-x-2 font-bold text-xl text-foreground hover:text-primary transition-colors"
-          >
-            <div className="w-8 h-8 bg-gradient-to-br from-primary to-primary/70 rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-sm">
-                DS
-              </span>
-            </div>
-            <span className="hidden sm:block">DevShowcase</span>
-          </Link>
+         <Link
+  to="/"
+  className="absolute left-0 flex items-center space-x-2 font-bold text-xl text-foreground hover:text-primary transition-colors"
+>
+  <img
+    src="https://raw.githubusercontent.com/rudra-raghu108/blog-space/main/public/logo.png"
+    alt="BlogSpace Logo"
+    className="h-8 w-8 object-contain"
+  />
+  <span className="hidden sm:block">DevShowcase</span>
+</Link>
+
 
           {/* Desktop Navigation - Centered */}
           <div className="hidden md:flex items-center space-x-8">
