@@ -64,11 +64,14 @@ export default function About() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-primary to-primary/70 rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-4xl">
-                DS
-              </span>
-            </div>
+          <div className="w-32 h-32 mx-auto mb-8">
+  <img
+    src="https://raw.githubusercontent.com/rudra-raghu108/blog-space/refs/heads/main/public/logo.png"
+    alt="Logo"
+    className="rounded-full object-cover w-full h-full"
+  />
+</div>
+
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">
               About DevShowcase
             </h1>
